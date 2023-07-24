@@ -1,7 +1,7 @@
 import { React } from 'react'
 import { useCustomContext } from './Context/ContextProvider'
 import { ProductCard, Nav } from './components'
-import { DetailPage, HomePage, CartPage} from './screens'
+import { DetailPage, HomePage, CartPage} from './screens/index.js'
 import { Route, Routes, NavLink } from 'react-router-dom'
 import Formulario from './components/Formulario/Formulario'
 
