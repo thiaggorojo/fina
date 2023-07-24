@@ -1,0 +1,108 @@
+
+.detallescontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  text-align: center;
+   gap:90px;
+   height: 80vh;
+   margin-top: 80px;
+
+    
+   
+}
+
+.confirm{
+ background-color: none;
+ border-radius: 40px;
+ margin-top: 10px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+
+.deatid{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif,;
+    font-size: 20px;
+ 
+
+}
+ .precioo{
+    font-size: 30px;
+    
+ }
+
+h1{
+    font-size: 55px
+}
+
+
+
+.comm{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 200px;
+  
+}
+
+.comm:hover{
+    transform: scale(1.1);
+
+}
+
+.imagendetail img{
+    width: 390px;
+    height: 400px;
+    border-radius:50%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.521);
+    box-shadow: 2px 2px 84px 8px rgba(18,12,84,0.72);
+-webkit-box-shadow: 2px 2px 84px 8px rgba(18,12,84,0.72);
+-moz-box-shadow: 2px 2px 84px 8px rgba(18,12,84,0.72);
+    margin-top: 30px;
+    
+   
+}
+
+
+
+.descripcion:hover{
+    transform: scale(1.1);
+
+}
+
+.descripcion{
+    color: rgb(255, 255, 255);
+    
+    border-radius: 40px;
+}
+
+@media only screen and (max-width: 400px){
+
+    .imagendetail img{
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .deatid{
+        
+        font-size: 15px;
+    }    
+
+
+}

@@ -1,0 +1,172 @@
+.piecontenedor{
+    background-image: url(https://seranking.com/es/blog/wp-content/uploads/sites/13/2022/09/para-que-sirve-el-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+   
+
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+
+.footer-link{
+    display: flex;
+    flex-direction: row;
+    
+   
+  
+   
+}
+.footerr{
+    width: 100%;
+}
+
+.link{
+    width: 200px;
+    
+    
+    
+    
+}
+
+.link a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.link ul{
+    text-decoration: none;
+    list-style: none;
+   
+    
+}
+
+.link li{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+
+  
+
+    
+}
+
+
+.link h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    
+   
+}
+li{
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    
+    
+   
+}
+
+.icons a{
+    display: inline-block;
+    min-height: 40;
+    width: 40px;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    background-color: aqua;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(131, 116, 116);
+    font-size: 20px;
+    border: solid black 2px;
+   
+
+
+}
+
+
+
+.link img{
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+ 
+  
+ 
+}
+
+
+.logo:hover{
+    transform: scale(1.1);
+    filter: brightness(200%);
+    
+}
+
+@media only screen and (max-width: 1000px){
+    
+    
+    
+    .footer-link{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+       
+        
+       
+    }    
+
+
+    .link img{
+        width: 100px;
+        height: 100px;
+       
+     
+      
+     
+    }
+
+
+
+.icons{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    
+    
+   
+}
+
+.link ul{
+    display: none;
+}
+
+
+
+}
+   
+
+@media only screen and (max-width: 550px){
+    .piecontenedor{
+        background-image: none;
+    }
+}

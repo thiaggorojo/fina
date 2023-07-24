@@ -1,0 +1,99 @@
+.Contenedor-filtro{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    background-image:url(https://images8.alphacoders.com/115/1151022.jpg) ;
+    height: 16vh;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-top: 40px;
+
+    
+    
+    
+}
+
+.inputt{
+    display: flex;
+    justify-content: center;
+    gap: .3125rem;
+    
+    
+    
+
+}
+
+
+.nombrejuego{
+   
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap ;
+    gap: 5px;
+    align-items: center;
+        
+        }
+
+
+input{
+    border-radius: 40px;
+    border-color: rgba(240, 248, 255, 0);
+    box-shadow: 2px 2px 84px 8px rgba(18,12,84,0.72);
+   
+}
+
+h2{
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+
+.Contenedor-filtro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+}
+ .inputt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+ }
+
+
+ .inputt input{
+    width: 100px;
+ }
+
+
+ .nombrejuego{
+   
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap ;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+    
+        
+        }
+
+.preccio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    
+   
+}
+
+
+}

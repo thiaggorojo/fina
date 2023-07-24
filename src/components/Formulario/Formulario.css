@@ -1,0 +1,88 @@
+.contenedor-prin{
+    font-family: sans-serif;
+    width: 600px;
+    height: 540px;
+    margin:  auto;
+    border-radius: 50px;
+    padding: 60px;
+    background-color: rgba(243, 240, 240, 0.61);
+    box-shadow: 2px 2px 84px 8px rgba(18,12,84,0.72);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+
+
+
+
+}
+
+.contenedor-form{
+    width: 610px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+
+
+
+
+.contenedor-form textarea{
+    padding: 3px, 8px, 3px, 16px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.contenedor-form input{
+    height: 35px; 
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.input-text, .text-textarea{
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+/* Boton */
+.contenedor-boton{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+.boton{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px, 20px, 8px, 20px;
+    background: rgb(11, 0, 161);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.boton:hover{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 700px){
+    .contenedor-prin{
+        width: 300px;
+    }
+
+    .contenedor-form{
+        width: 300px;
+    }
+
+}

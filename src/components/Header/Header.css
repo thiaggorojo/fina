@@ -1,0 +1,23 @@
+.headercont{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+    background-image: url(https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/07/13/ea-fc24-beta.jpg);
+    background-size: cover;
+    background-position: 0% 32%  ;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(0, 0, 0);
+    margin-bottom: 5px;
+    
+}
+
+
+
+@media only screen and (max-width: 560px) {
+    .headercont{
+       display: none;
+       
+        
+    }
+}
