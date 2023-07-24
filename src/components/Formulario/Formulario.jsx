@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Formulario.css'
-import Nav from '../Nav/Nav'
+
 
 
 const Formulario = () => {
