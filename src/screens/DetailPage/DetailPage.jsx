@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { useCustomContext } from '../../Context/ContextProvider'
 import "../DetailPage/DetailPage.css"
