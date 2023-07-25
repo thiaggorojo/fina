@@ -22,10 +22,3 @@ p{
 }
 
 
-@media only screen and (max-width: 370px){
-    .productocardcart img{
-        width: 250px;
-        height: 250px;
-
-    }
-}
