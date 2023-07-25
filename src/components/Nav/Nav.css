@@ -63,10 +63,12 @@ align-items: center;
 @media only screen and (max-width: 400px){
 
     .Contenedor-1 input{
-        width: 350px;
-        padding: 0;
+     display: none;
     }
-
+  .Contenedor-1 span{
+    display: none;
+    
+  }
     .Contenedor-1{
         display: flex;
         justify-content: space-between;
