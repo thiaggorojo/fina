@@ -78,11 +78,11 @@
 
 @media only screen and (max-width: 700px){
     .contenedor-prin{
-        width: 300px;
+        width: 200px;
     }
 
     .contenedor-form{
-        width: 300px;
+        width: 200px;
     }
 
 }
