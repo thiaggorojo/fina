@@ -119,7 +119,7 @@ stock: 10,
 
         },
         {
-            img :"https://globalpingames.com/image/cache/catalog/Ps4%20Digital/God%20of%20War-600x600.jpg",
+            img :"https://images.immediate.co.uk/production/volatile/sites/3/2022/04/God-of-War-Ragnarok-release-date-7ce4b11.jpg?quality=90&resize=620,414",
             nombre:"PC/PS4/PS5",
             Tituo:"GOD OF WAR",
             precio:"950",
